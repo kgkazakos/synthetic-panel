@@ -158,7 +158,7 @@ save_panel(panel, "panel.json")
 - [`guide-scorer`](https://github.com/kgkazakos/guide-scorer) — score discussion guides before running panel sessions
 - [`insight-differ`](https://github.com/kgkazakos/insight-differ) — compare research reports across panel waves
 
-Part of the **CPR Orbital** series — 40 open-source tools for AI-native product research, shipping every Friday.
+Part of the **CPR Orbital** series — 40 open-source tools for AI-native product research, shipping almost daily.
 
 ---
 
