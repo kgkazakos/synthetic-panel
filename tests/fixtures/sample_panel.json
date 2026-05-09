@@ -1,0 +1,218 @@
+{
+  "id": "panel-fixture-0001",
+  "name": "Mobile Banking Study Panel",
+  "description": "Synthetic participants for longitudinal mobile banking UX research",
+  "participants": {
+    "part-alpha-0001": {
+      "id": "part-alpha-0001",
+      "name": "Alex Chen",
+      "archetype": "Power User",
+      "segment": "Young Professional",
+      "attributes": {
+        "age_range": "25-34",
+        "tech_comfort": "high",
+        "banking_frequency": "daily",
+        "primary_device": "iOS",
+        "pain_points": ["transfer limits", "slow support"],
+        "feature_usage": ["instant transfer", "budgeting", "notifications"]
+      },
+      "versions": [
+        {
+          "version": 1,
+          "snapshot": {
+            "name": "Alex Chen",
+            "archetype": "Power User",
+            "segment": "Young Professional",
+            "attributes": {
+              "age_range": "25-34",
+              "tech_comfort": "high",
+              "banking_frequency": "daily",
+              "primary_device": "iOS",
+              "pain_points": ["transfer limits", "slow support"],
+              "feature_usage": ["instant transfer", "budgeting", "notifications"]
+            },
+            "tags": ["high-value", "digital-native"]
+          },
+          "created_at": "2026-04-01T09:00:00+00:00",
+          "note": "Initial version"
+        },
+        {
+          "version": 2,
+          "snapshot": {
+            "name": "Alex Chen",
+            "archetype": "Power User",
+            "segment": "Young Professional",
+            "attributes": {
+              "age_range": "25-34",
+              "tech_comfort": "high",
+              "banking_frequency": "daily",
+              "primary_device": "iOS",
+              "pain_points": ["transfer limits"],
+              "feature_usage": ["instant transfer", "budgeting", "notifications", "crypto"]
+            },
+            "tags": ["high-value", "digital-native", "crypto-curious"]
+          },
+          "created_at": "2026-04-15T09:00:00+00:00",
+          "note": "Post-wave-1 update — crypto interest emerged"
+        }
+      ],
+      "created_at": "2026-04-01T09:00:00+00:00",
+      "updated_at": "2026-04-15T09:00:00+00:00",
+      "tags": ["high-value", "digital-native", "crypto-curious"]
+    },
+    "part-beta-0002": {
+      "id": "part-beta-0002",
+      "name": "Maria Santos",
+      "archetype": "Cautious Saver",
+      "segment": "Mid-career",
+      "attributes": {
+        "age_range": "35-44",
+        "tech_comfort": "medium",
+        "banking_frequency": "weekly",
+        "primary_device": "Android",
+        "pain_points": ["complex navigation", "too many notifications"],
+        "feature_usage": ["savings goals", "statements", "bill pay"]
+      },
+      "versions": [
+        {
+          "version": 1,
+          "snapshot": {
+            "name": "Maria Santos",
+            "archetype": "Cautious Saver",
+            "segment": "Mid-career",
+            "attributes": {
+              "age_range": "35-44",
+              "tech_comfort": "medium",
+              "banking_frequency": "weekly",
+              "primary_device": "Android",
+              "pain_points": ["complex navigation", "too many notifications"],
+              "feature_usage": ["savings goals", "statements", "bill pay"]
+            },
+            "tags": ["savings-focused", "privacy-aware"]
+          },
+          "created_at": "2026-04-01T09:00:00+00:00",
+          "note": "Initial version"
+        }
+      ],
+      "created_at": "2026-04-01T09:00:00+00:00",
+      "updated_at": "2026-04-01T09:00:00+00:00",
+      "tags": ["savings-focused", "privacy-aware"]
+    },
+    "part-gamma-0003": {
+      "id": "part-gamma-0003",
+      "name": "James Okafor",
+      "archetype": "Reluctant Adopter",
+      "segment": "Near Retirement",
+      "attributes": {
+        "age_range": "55-64",
+        "tech_comfort": "low",
+        "banking_frequency": "monthly",
+        "primary_device": "Android",
+        "pain_points": ["small text", "too many steps", "security fears"],
+        "feature_usage": ["balance check", "statements"]
+      },
+      "versions": [
+        {
+          "version": 1,
+          "snapshot": {
+            "name": "James Okafor",
+            "archetype": "Reluctant Adopter",
+            "segment": "Near Retirement",
+            "attributes": {
+              "age_range": "55-64",
+              "tech_comfort": "low",
+              "banking_frequency": "monthly",
+              "primary_device": "Android",
+              "pain_points": ["small text", "too many steps", "security fears"],
+              "feature_usage": ["balance check", "statements"]
+            },
+            "tags": ["accessibility-needs", "branch-preferred"]
+          },
+          "created_at": "2026-04-01T09:00:00+00:00",
+          "note": "Initial version"
+        }
+      ],
+      "created_at": "2026-04-01T09:00:00+00:00",
+      "updated_at": "2026-04-01T09:00:00+00:00",
+      "tags": ["accessibility-needs", "branch-preferred"]
+    }
+  },
+  "assignments": [
+    {
+      "id": "assign-0001",
+      "study_id": "study-wave-1",
+      "study_name": "Wave 1 — Onboarding Usability",
+      "participant_id": "part-alpha-0001",
+      "participant_version": 1,
+      "assigned_at": "2026-04-05T09:00:00+00:00",
+      "notes": ""
+    },
+    {
+      "id": "assign-0002",
+      "study_id": "study-wave-1",
+      "study_name": "Wave 1 — Onboarding Usability",
+      "participant_id": "part-beta-0002",
+      "participant_version": 1,
+      "assigned_at": "2026-04-05T09:00:00+00:00",
+      "notes": ""
+    },
+    {
+      "id": "assign-0003",
+      "study_id": "study-wave-2",
+      "study_name": "Wave 2 — Post-redesign Follow-up",
+      "participant_id": "part-alpha-0001",
+      "participant_version": 2,
+      "assigned_at": "2026-04-20T09:00:00+00:00",
+      "notes": "Alex re-engaged after crypto feature shipped"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "session-0001",
+      "study_id": "study-wave-1",
+      "participant_id": "part-alpha-0001",
+      "participant_version": 1,
+      "session_date": "2026-04-06T10:00:00+00:00",
+      "responses": {
+        "task_completion_rate": 0.85,
+        "sus_score": 72,
+        "top_pain_point": "Transfer limit too low for rent payments",
+        "would_recommend": true,
+        "open_feedback": "Love the speed, hate the cap on transfers"
+      },
+      "notes": "Completed all tasks; flagged transfer limits unprompted"
+    },
+    {
+      "id": "session-0002",
+      "study_id": "study-wave-1",
+      "participant_id": "part-beta-0002",
+      "participant_version": 1,
+      "session_date": "2026-04-06T11:30:00+00:00",
+      "responses": {
+        "task_completion_rate": 0.60,
+        "sus_score": 55,
+        "top_pain_point": "Could not find bill pay — buried in menus",
+        "would_recommend": false,
+        "open_feedback": "I had to tap around for five minutes to pay a bill"
+      },
+      "notes": "Struggled with navigation; completed savings goal task easily"
+    },
+    {
+      "id": "session-0003",
+      "study_id": "study-wave-2",
+      "participant_id": "part-alpha-0001",
+      "participant_version": 2,
+      "session_date": "2026-04-21T10:00:00+00:00",
+      "responses": {
+        "task_completion_rate": 0.95,
+        "sus_score": 82,
+        "top_pain_point": "None major — crypto onboarding a bit slow",
+        "would_recommend": true,
+        "open_feedback": "Much better. Transfer limits raised, found crypto section quickly"
+      },
+      "notes": "Wave 2 — improvement confirmed vs Wave 1 baseline"
+    }
+  ],
+  "created_at": "2026-04-01T08:00:00+00:00",
+  "updated_at": "2026-04-21T10:00:00+00:00"
+}

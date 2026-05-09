@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "synthetic-panel"
+version = "0.1.0"
+description = "Persistent, versioned synthetic research participant management — CPR Orbital Tool 20"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = [
+    "click>=8.0",
+    "rich>=13.0",
+]
+
+[project.optional-dependencies]
+ui = ["streamlit>=1.30"]
+llm = ["dspy-ai>=2.4", "litellm>=1.40"]
+dev = ["pytest>=7.0", "ruff>=0.4"]
+
+[project.scripts]
+synthetic-panel = "synthetic_panel.cli:cli"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["synthetic_panel*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
